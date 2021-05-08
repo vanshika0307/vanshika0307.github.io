@@ -6,4 +6,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.covid{
+    width:370px;
+    margin-top: 50px;
+}
+
+@media (max-width:770px){
+    body{
+        padding: 30px;
+    }
+    .container{
+        margin: 0, 10%;
+    }
+
+    .covid{
+        width: 100%;
+    }
 }
